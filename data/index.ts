@@ -75,7 +75,7 @@ export const navItems = [
       title: "Amazon Clone",
       des: "Amazon Clone is a personal portfolio project designed to simulate an e-commerce platform with an intuitive interface and core shopping features.",
       img: "/modern-portfolio/amazon.png",
-      iconLists: ["/re.svg",  "/css.svg", "/js.svg", "/mongo.svg", "/nodejs.svg"],
+      iconLists: ["/modern-portfolio/re.svg",  "/modern-portfolio/css.svg", "/modern-portfolio/js.svg", "/modern-portfolio/mongo.svg", "/modern-portfolio/nodejs.svg"],
       link: "github.com/balagowda/Mern-Stack-web",
     },
     {
@@ -83,7 +83,7 @@ export const navItems = [
       title: "YouTube Clone",
       des: "Simulate a video-sharing platform and understand real-world app flow.",
       img: "/modern-portfolio/youtube.png",
-      iconLists: ["/re.svg","/css.svg", "/js.svg", "/firebase.svg"],
+      iconLists: ["/modern-portfolio/re.svg","/modern-portfolio/css.svg", "/modern-portfolio/js.svg", "/modern-portfolio/firebase.svg"],
       link: "balagowda-yt-clone.web.app",
     },
     {
@@ -91,7 +91,7 @@ export const navItems = [
       title: "Customer-Returns",
       des: "Automated System for Material Return from Customer.",
       img: "/modern-portfolio/return.png",
-      iconLists: ["/re.svg", "/css.svg", "/js.svg", "/firebase.svg"],
+      iconLists: ["/modern-portfolio/re.svg", "/modern-portfolio/css.svg", "/modern-portfolio/js.svg", "/modern-portfolio/firebase.svg"],
       link: "customerreturn-97bdd.web.app/",
     },
   ];
@@ -102,21 +102,21 @@ export const navItems = [
     title: "Software Engineer at TCS",
     desc: "<ul><li>Build scalable, maintainable APIs using Spring Boot and MySQL.</li><li>Enable reliable microservice communication with Feign and service discovery.</li><li>Deliver end-to-end backend solutions including testing and API validation.</li><li>Collaborate effectively in Agile teams to ensure high-quality delivery.</li></ul>",
     className: "md:row-span-2",  // First item spans both rows in col 1 on md+
-    thumbnail: "/exp1.svg",
+    thumbnail: "/modern-portfolio/exp1.svg",
   },
   {
     id: 2,
     title: "Open Source",
     desc: "My open-source contributions focus on improving user experience, enhancing front-end functionality, and collaborating with the community through effective debugging and knowledge sharing",
     className: "",  // Flows to col 2, row 1
-    thumbnail: "/exp2.svg",
+    thumbnail: "/modern-portfolio/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance Project",
     desc: "Developed a web application for a client, handling both design and implementation using React.",
     className: "",  // Flows to col 2, row 2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/modern-portfolio/exp3.svg",
   },
 ];
   
