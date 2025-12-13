@@ -1,8 +1,13 @@
-/** @type {import('postcss-load-config').Config} */
-const config = {
-  plugins: {
-    tailwindcss: {},
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
+
+  basePath: "/modern-portfolio",
+  assetPrefix: "/modern-portfolio/",
+
+  images: {
+    unoptimized: true,
   },
 };
 
-export default config;
+export default nextConfig;
