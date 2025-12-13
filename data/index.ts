@@ -13,7 +13,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/modern-portfolio/b1.svg",
       spareImg: "",
     },
     {
@@ -43,8 +43,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: "/modern-portfolio/grid.svg",
+      spareImg: "/modern-portfolio/b4.svg",
     },
   
     {
@@ -54,8 +54,8 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
+      img: "/modern-portfolio/b5.svg",
+      spareImg: "/modern-portfolio/grid.svg",
     },
     {
       id: 6,
@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "Amazon Clone",
       des: "Amazon Clone is a personal portfolio project designed to simulate an e-commerce platform with an intuitive interface and core shopping features.",
-      img: "/amazon.png",
+      img: "/modern-portfolio/amazon.png",
       iconLists: ["/re.svg",  "/css.svg", "/js.svg", "/mongo.svg", "/nodejs.svg"],
       link: "github.com/balagowda/Mern-Stack-web",
     },
@@ -82,7 +82,7 @@ export const navItems = [
       id: 2,
       title: "YouTube Clone",
       des: "Simulate a video-sharing platform and understand real-world app flow.",
-      img: "/youtube.png",
+      img: "/modern-portfolio/youtube.png",
       iconLists: ["/re.svg","/css.svg", "/js.svg", "/firebase.svg"],
       link: "balagowda-yt-clone.web.app",
     },
@@ -90,7 +90,7 @@ export const navItems = [
       id: 3,
       title: "Customer-Returns",
       des: "Automated System for Material Return from Customer.",
-      img: "/return.png",
+      img: "/modern-portfolio/return.png",
       iconLists: ["/re.svg", "/css.svg", "/js.svg", "/firebase.svg"],
       link: "customerreturn-97bdd.web.app/",
     },
@@ -124,17 +124,17 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "/modern-portfolio/git.svg",
       href: "https://github.com/balagowda",
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/modern-portfolio/twit.svg",
       href: "https://x.com/balagowda_02",
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: "/modern-portfolio/link.svg",
       href: "https://www.linkedin.com/in/balachandregowda-p-20034a224/",
     },
   ];
